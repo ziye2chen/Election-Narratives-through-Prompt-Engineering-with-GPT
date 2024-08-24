@@ -1,0 +1,10 @@
+Senate: 1476
+Campaign: 706
+Email: 642
+Donate: 613
+Unsubscribe: 481
+Support: 474
+Grassroots: 354
+Donation: 350
+Jenga: 317
+Hawley: 236

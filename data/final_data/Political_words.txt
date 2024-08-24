@@ -1,0 +1,25 @@
+senate : 9258
+re-election : 256
+campaign : 4596
+democrats : 954
+election : 1605
+endorse : 688
+grassroots : 2273
+gop : 1151
+republican : 1051
+race : 2645
+voters : 1150
+support : 2807
+defeat : 1344
+win : 1966
+opponent : 732
+donation : 2345
+republicans : 884
+democratic : 664
+fundraising : 1162
+majority : 1304
+
+
+
+
+

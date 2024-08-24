@@ -1,0 +1,12 @@
+Biden: 59
+Joe: 31
+Joe Biden: 23
+Trump: 93
+Donald: 44
+Donald Trump: 39
+Haley: 4
+Nikki: 4
+Haley Nikki: 0
+Phillips: 1
+Dean: 0
+Dean Phillips: 0

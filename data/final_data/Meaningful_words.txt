@@ -1,0 +1,24 @@
+senate : 9258
+contribution : 1207
+campaign : 4596
+country : 1526
+email : 4233
+friend : 1401
+help : 4194
+chip : 3689
+donate : 3640
+click : 1600
+jenga : 2369
+donation : 2345
+win : 1966
+grassroots : 2273
+race : 2645
+support : 2807
+election : 1605
+team : 2702
+goal : 1497
+defeat : 1344
+
+
+
+
