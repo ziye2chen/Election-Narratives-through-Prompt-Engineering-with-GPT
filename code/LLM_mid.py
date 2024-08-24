@@ -11,7 +11,7 @@ and the difficulty in subsequent data analysis work caused by inconsistent GPT o
 
 
 # Set OpenAI API key
-# Client = OpenAI(api_key='') # Your API
+Client = OpenAI(api_key='') # Your API
 
 def condense_email(email_text):
     prompt = f"Analyze the following email and answer the questions:\n{email_text}\n---\n" \
