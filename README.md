@@ -5,7 +5,7 @@ This repository contains a series of analysis code to analyze election related e
 ## Base/Extended Questions that Have Been Answered and The Results
 
 ### 1. Create a database of every active candidate and their party
-We use the Google Gmail API to extract the required emails from election related email accounts as data. https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/api_call.py
+We use the Google Gmail API to extract the required emails from election related email accounts as data. https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/api_call.py
 
 ### 2. What themes or narratives is each political party pushing? Does this change by state?
 In U.S. politics, different political parties often focus on distinct themes and styles in their campaigning and policy priorities. Here's a general overview of how major parties typically differ:
@@ -73,10 +73,10 @@ For a broad overview, here are the focus issues in political campaigns for each 
 50. Wyoming: Energy sector and land management.
 
 Here are the relevant files:
-![Top Keywords by State.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/Top%20Keywords%20by%20State.png)
-![Total Mentions for Each Candidate by Party.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
+![Top Keywords by State.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Top%20Keywords%20by%20State.png)
+![Total Mentions for Each Candidate by Party.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
 
-In addition, a more detailed summary and analysis are provided in this document(Summarized by ChatGPT).(https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/data/final_data/summary_of_a_week.txt)
+In addition, a more detailed summary and analysis are provided in this document(Summarized by ChatGPT).(https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/data/final_data/summary_of_a_week.txt)
 ### Example: 
 ### 2024-01-22
 ### Republican Party
@@ -111,41 +111,41 @@ Due to the fact that the big language model cannot directly extract information 
 ### Example: 
 - pjnewsletter.com, being shared 18 times,  is a news source with a notable right-wing bias. An email sharing a link to such websites can possibly be using misinformation strategies.
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/Top%2010%20Frequent%20Hostnames.png)
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/misinfo.png)
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/Campaign%20vs.%20Non-Campaign%20Websites.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Top%2010%20Frequent%20Hostnames.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/misinfo.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Campaign%20vs.%20Non-Campaign%20Websites.png)
 
 ### 4. What is the sentiment of different campaigns (positive, negative, etc)? 
 The activities of certain specific political figures often tend to be positive or negative, which is related to their campaign style, support rate, and political party they belong to.
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/Sentiment%20Analysis%20for%20Each%20Candidate.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Sentiment%20Analysis%20for%20Each%20Candidate.png)
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/Sentiment%20Analysis%20by%20Political%20Party.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Sentiment%20Analysis%20by%20Political%20Party.png)
 
 ### 5. What links are these campaigns sharing?
 The vast majority of links are fundraising and news links initiated by candidates, and the following files contain links from all the emails we extracted.
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/data/final_data/links.txt
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/data/final_data/links.txt
 
 
 ### 6. What other people do these emails reference (Donald Trump, Joe Biden, Hillary Clinton, etc)?
 We extracted all the names mentioned in the emails and filtered out data that appeared less frequently, by political party.
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
 
 ### 7. Do any of these questions change depending on how competitive the seat is?
 States with closer seats tend to speak more aggressively, while those with clear advantages tend to speak more calmly.
 
 Here are the emails we extract on a weekly basis and real-time updates on seat changes.
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/data/final_data/data_per_week.zip
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/data/final_data/data_per_week.zip
 https://www.realclearpolling.com/elections/president/2024/battleground-states
 
 ## Data Cleaning Methods with Links to the Files for Data Cleaning
 ### 1. Email extraction: 
 extracting emails from a mailbox.
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/Data_preprocessing.py
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/Data_preprocessing.py
 
 ### 2. Keyword extraction: 
 Counting the number of occurrences of specified keywords from emails.
@@ -159,27 +159,27 @@ Counts the average word count of an email.
 ### Time extraction:
 Extracting the collection time of emails.
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/Data_preprocessing.py
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/Data_preprocessing.py
 
 ### 3. Summarize each email
 The specific output is **subject/candidate name(attitude)[evaluation]\<relevant region>** for each email.
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/LLM_mid.py
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/LLM_mid.py
 
 ### 4. Organize the keywords in the summary
 Extract and place the frequency of each candidate's appearance, the frequency of related keywords, and the frequency of related attitudes in a file named after the person's name
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/Data_processing_mid.py
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/Data_processing_mid.py
 
 ### 5. Extract link
 Extract links that appear in emails
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/extract_links.py
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/extract_links.py
 
 ### 6. Classify by time
 Change the email name to the time it was received and archive the email in weeks
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/Data_Processing_final.py
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/Data_Processing_final.py
 
 ## Data Analysis Methods with Links to the Files for Data Analysis
 
@@ -197,7 +197,7 @@ The number of emails received at each time of the day
 
 The number of times each candidate appears
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/plot_emails_summary.py
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/plot_emails_summary.py
 
 
 Top Keywords by State
@@ -212,12 +212,12 @@ Total Mentions for Each Candidate by Party
 
 Sentiment Analysis by Political Party
 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/code/chartsGeneration.ipynb
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/code/chartsGeneration.ipynb
 
 ## Links to datasets
 
 ### Emails: 
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/data/final_data/data.zip
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/data/final_data/data.zip
 
 ## How to Run
 #### All executable files are located in the code directory
@@ -260,7 +260,7 @@ Above all,  Run api_call.py to download all JSON files for emails.
 
 #### Prompt for ChatGPT: 
 1. Use this prompt to analyze emails merged on a weekly basis.
-https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/data/final_data/prompt_final.txt
+https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/data/final_data/prompt_final.txt
 
 
 ## References
