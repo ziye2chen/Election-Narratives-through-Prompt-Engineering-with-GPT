@@ -73,8 +73,8 @@ For a broad overview, here are the focus issues in political campaigns for each 
 50. Wyoming: Energy sector and land management.
 
 Here are the relevant files:
-![Top Keywords by State.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Top%20Keywords%20by%20State.png)
-![Total Mentions for Each Candidate by Party.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
+![Top Keywords by State.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/Top%20Keywords%20by%20State.png)
+![Total Mentions for Each Candidate by Party.png](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
 
 In addition, a more detailed summary and analysis are provided in this document(Summarized by ChatGPT).(https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/data/final_data/summary_of_a_week.txt)
 ### Example: 
@@ -111,16 +111,16 @@ Due to the fact that the big language model cannot directly extract information 
 ### Example: 
 - pjnewsletter.com, being shared 18 times,  is a news source with a notable right-wing bias. An email sharing a link to such websites can possibly be using misinformation strategies.
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Top%2010%20Frequent%20Hostnames.png)
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/misinfo.png)
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Campaign%20vs.%20Non-Campaign%20Websites.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/Top%2010%20Frequent%20Hostnames.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/misinfo.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/Campaign%20vs.%20Non-Campaign%20Websites.png)
 
 ### 4. What is the sentiment of different campaigns (positive, negative, etc)? 
 The activities of certain specific political figures often tend to be positive or negative, which is related to their campaign style, support rate, and political party they belong to.
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Sentiment%20Analysis%20for%20Each%20Candidate.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/Sentiment%20Analysis%20for%20Each%20Candidate.png)
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Sentiment%20Analysis%20by%20Political%20Party.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/Sentiment%20Analysis%20by%20Political%20Party.png)
 
 ### 5. What links are these campaigns sharing?
 The vast majority of links are fundraising and news links initiated by candidates, and the following files contain links from all the emails we extracted.
@@ -131,7 +131,7 @@ https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with
 ### 6. What other people do these emails reference (Donald Trump, Joe Biden, Hillary Clinton, etc)?
 We extracted all the names mentioned in the emails and filtered out data that appeared less frequently, by political party.
 
-![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/tree/main/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
+![](https://github.com/ziye2chen/Election-Narratives-through-Prompt-Engineering-with-GPT/blob/main/deliverables/Total%20Mentions%20for%20Each%20Candidate%20by%20Party.png)
 
 ### 7. Do any of these questions change depending on how competitive the seat is?
 States with closer seats tend to speak more aggressively, while those with clear advantages tend to speak more calmly.
